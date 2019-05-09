@@ -1,0 +1,133 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+#main {
+    margin-top: 0;
+    max-width: 70%;
+    margin: auto;
+    
+}
+
+header img {
+    margin: 1em 0 0 1em;
+    display: inline;
+}
+
+header nav ul {
+    display: flex;
+    float: right;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 1em;
+    margin-right: 1em;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #727272;
+    font-weight: bold;
+}
+
+.start {
+    background-color: #fff;
+    padding: 1em;
+    border-bottom: 1px solid #717171;
+}
+
+.start h1 {
+    margin-left: 14em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.start img {
+    margin-top: -30%;
+    margin-left: 8em;
+    display: inline;
+}
+
+.start div {
+    transform: translate(100%, 50%);
+    border-bottom: 1px solid #717171;
+    width: 50%;
+    padding: .1em;
+}
+
+.start div i {
+    /* margin: auto; */
+    color: goldenrod;
+}
+
+.paperback {
+    color: #d38573;
+}
+
+.paperback .pap {
+    display: inline;
+    color: #292929;
+}
+
+.paperback del {
+    margin-left: 1em;
+    color: #292929;
+    font-weight: bold;
+}
+
+.paperback .dol span {
+    margin-left: 2em;
+}
+
+.paperback button {
+    padding: 1em 7em;
+    background-color: #f2849e;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    display: block;
+    
+}
+
+.paperback button:hover {
+    background-color: #ec4b75;
+    cursor: pointer;
+    transition: .7s;
+}
+
+p, a {
+    display: inline-block;
+    background-color: #fff;
+    margin-top: 0;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 1em;
+    width: 96.5%;
+    text-decoration: none;
+}
+
+.para {
+    border-bottom: #717171 1px solid;
+}
+
+.product, .about {
+    margin-top: 0;
+    padding: 1em;
+    background-color: #fff;
+    border-bottom: 1px #717171 solid;
+}
+#icon{
+    color: #fff;
+}
